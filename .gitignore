@@ -1,0 +1,51 @@
+# .NET
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.log
+*.cache
+*.config
+*.csproj.user
+*.fsproj.user
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build directories
+bin/
+obj/
+
+# Paket
+.paket/
+paket-files/
+paket.dependencies
+paket.lock
+
+# ASP.NET
+wwwroot/
+node_modules/
+dist/
+lib/
+
+# Fable
+fable_modules/
+
+# Bolero specific
+src/**/*.fs.js
+src/**/*.fs.js.map
+src/**/*.fsproj.js
+src/**/*.fsproj.js.map
+
+# VS Code
+.vscode/
+
+# Rider
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
